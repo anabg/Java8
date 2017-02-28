@@ -38,6 +38,13 @@ public class JavaRegularExpressionsCharacterClassesAndRegexQuantifiers {
 
         System.out.println("* quantifier ....");
         System.out.println(Pattern.matches("[amn]*", "ammmna"));//true (a or m or n may come zero or more times)
+        System.out.println(Pattern.matches("[amn]*", "ammma"));//true (a or m or n may come zero or more times)
+        System.out.println(Pattern.matches("[a]{2}", "aa"));//true"a" occurs 2 times only
+        System.out.println(Pattern.matches("[a]{4}", "aa"));//false "a" occurs 2 times not 4
+        System.out.println(Pattern.matches("[a]{2,}", "aa"));//true "a" occurs 2 times only
+        System.out.println(Pattern.matches("[a]{2,}", "aaaa"));//true "a" occurs 2 or more times
+        System.out.println(Pattern.matches("[a]{2,8}", "aaaa"));// true "a" occurs at least 2 times but less than 8 times, occurs 6 times
+        System.out.println(Pattern.matches("[a]{2,6}", "aaaaaaaa"));//false "a" occurs at least 2 times but more than 6 times, occurs 8 times
 
     }
 
