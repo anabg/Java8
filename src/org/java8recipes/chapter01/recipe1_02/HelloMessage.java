@@ -9,8 +9,7 @@ public class HelloMessage {
     private String message;
 
 
-    public HelloMessage(){
-
+    public HelloMessage() {
 
         this.message = "Default Message";
     }

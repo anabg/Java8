@@ -12,9 +12,17 @@ public class StringConversion {
         String strval;
 
 
-        pi = Double.parseDouble( "3.1416" );
+        pi = Double.parseDouble("3.1416");
 
-        System.out.println( String.valueOf( pi ));
-        System.out.println( Double.toString( pi ) );
+        /*
+        * Returns the string representation of the {@code double} argument.
+        * */
+        System.out.println(String.valueOf(pi));
+
+        /*
+        * Returns a string representation of the {@code double}
+        * argument.
+        * */
+        System.out.println(Double.toString(pi));
     }
 }
