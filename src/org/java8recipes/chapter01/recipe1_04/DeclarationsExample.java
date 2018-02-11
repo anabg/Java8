@@ -3,8 +3,8 @@ package org.java8recipes.chapter01.recipe1_04;
 /**
  * Created by ÊAnita on 25/1/2017.
  * <p>
- * Problem You want to create some variables and manipulate data within your program.
- * Solution Java implements eight primitive data types. There is also special support for
+ * Problem: You want to create some variables and manipulate data within your program.
+ * Solution: Java implements eight primitive data types. There is also special support for
  * the String class type. Listing 1-2 shows an example declaration of each. Draw from the
  * example to declare the variables needed in your own application.
  */
