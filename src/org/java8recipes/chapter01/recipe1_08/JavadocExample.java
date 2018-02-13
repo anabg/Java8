@@ -3,7 +3,7 @@ package org.java8recipes.chapter01.recipe1_08;
 import java.math.BigInteger;
 
 /**
- * Created by ÊAnita on 29/1/2017.
+ *
  * <p>
  * Problem: You want to document some of your java classes to assist in future maintenance.
  * <p>
@@ -108,6 +108,7 @@ import java.math.BigInteger;
  * That result can become a cluttered nightmare if you like to have source files separate from documentation. You can
  * instead set up a destination for the generated documentation by passing the ñd flag to the Javadoc tool.
  *
+ * Created by ÊBelu on 29/1/2017.
  */
 public class JavadocExample {
 

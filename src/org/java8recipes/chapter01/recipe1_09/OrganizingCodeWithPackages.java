@@ -1,7 +1,7 @@
 package org.java8recipes.chapter01.recipe1_09;
 
 /**
- * Created by ÊAnita on 11/2/2018.
+ *
  * Problem: Your application consists of a set of Java classes, interfaces, and other types. You want to organize these source files to
  * make them easier to maintain and avoid potential class-naming conflicts.
  *
@@ -90,11 +90,8 @@ package org.java8recipes.chapter01.recipe1_09;
  * Any substantial Java application will include packages. Any Java library or Application Programming Interface
  * (API) that you use includes packages. When you import classes or types from those libraries and APIs, you are really
  * importing packages.
-
-
-
-
-
+ *
+ * Created by ÊBelu on 11/2/2018.
  */
 public class OrganizingCodeWithPackages {
 }

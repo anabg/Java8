@@ -1,8 +1,9 @@
 package org.java8recipes.chapter01.recipe1_02;
 
 /**
- * Created by ÊAnita on 24/1/2017.
+ * Created by ÊBelu on 24/1/2017.
  */
+
 public class HelloWorld {
 
 

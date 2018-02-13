@@ -1,7 +1,7 @@
 package org.java8recipes.chapter01.recipe1_10;
 
 /**
- * Created by ÊAnita on 12/2/2018.
+ *
  *
  * Problem: You want to execute a Java program, or include an external Java library in the application you are executing.
  *
@@ -22,7 +22,7 @@ package org.java8recipes.chapter01.recipe1_10;
  *
  * Of course, on Microsoft Windows machines the file path will use the backslash (\) instead.
  *
- *  NOTE: he javac ñcp option may be used, rather than specifying the ñclasspath option.
+ *  NOTE: The javac ñcp option may be used, rather than specifying the ñclasspath option.
  *
  *  How It Works:
  *
@@ -72,6 +72,11 @@ package org.java8recipes.chapter01.recipe1_10;
  *  Note: It is a good idea to organize your code; it is also good to organize where you place your code on the computer.
  *  A good practice is to place all your Java projects within the same directory; it can become your workspace. Place all the
  *  Java libraries that are contained in JAR files into the same directory for easier management
+ *
+ *
+ *  Created by ÊBelu on 12/2/2018.
  */
 public class ConfiguringTheCLASSPATH {
+
+
 }

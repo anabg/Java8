@@ -1,7 +1,7 @@
 package org.java8recipes.chapter01.recipe1_06;
 
 /**
- * Created by ÊAnita on 25/1/2017.
+ *
  *
  * Problem: You want to pass a value into a Java application via the command-line.
  *
@@ -32,14 +32,14 @@ package org.java8recipes.chapter01.recipe1_06;
  * Arguments that were passed to the program:
  * Upper Penninsula
  *
- * The doucle quotes translate the string "Upper Peninsula" into a single argument
+ * The double quotes translate the string "Upper Peninsula" into a single argument
  *
  * How It Works:
  *
  * All java classes that are executable from the command-line or terminal contain a main() method. If you look at the
  * signature for the main() method, you can see that it accepts a String[] argument. In other words, you can pass an
  * array of String objects into the main() method. Command-line interpreters such as the Windows Command Prompt
- * and the various Linux and Unis shells build an array of strigns out of youurs command-line arguments, and pass that
+ * and the various Linux and Unix shells build an array of strigns out of youurs command-line arguments, and pass that
  * array to the main() method on your behalf.
  * The main() method in the example displays each argument that is passed. First, the length of the array named
  * args is tested to see whether it is a greater than zero. If it is, the method will loop through each of the arguments in the
@@ -55,6 +55,7 @@ package org.java8recipes.chapter01.recipe1_06;
  * Java as character strings in human-readable form. You can convert them into their appropriate numeric types using the
  * conversion methods in Recipe 1-5.
  *
+ * Created by ÊBelu on 25/1/2017.
  */
 public class PassingArguments {
 

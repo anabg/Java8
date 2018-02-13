@@ -1,12 +1,11 @@
 package org.java8recipes.chapter01.recipe1_11;
 
 /**
- * Created by ÊAnita on 12/2/2017.
  *
  * Problem: The application you are developing needs to make use of some environment variables. You want to read the values
  * that have been set from the operating-system level.
  *
- *Solution: Make use of the Java System class to retrieve any environment variable values. The System class has a method called
+ * Solution: Make use of the Java System class to retrieve any environment variable values. The System class has a method called
  * getenv(), which accepts a String argument corresponding to the name of a system environment variable. The
  * method will then return the value of the given variable. If no matching environment variable exists, a NULL value will
  * be returned. Listing 1-9 provides an example. The class ReadOneEnvVariable accepts an environment variable name
@@ -21,6 +20,8 @@ package org.java8recipes.chapter01.recipe1_11;
  * The method invoked to obtain environment variable values in Listings 1-9 and 1-10 is the same. Itís been overloaded
  * to handle both cases shown in the solution. Pass the name of a variable as a string if you want to obtain just that variableís
  * value. Pass no argument at all to get back the names and values of all variables that are currently set.
+ *
+ * Created by ÊBelu on 12/2/2017.
  */
 public class ReadOneEnvVariable {
 

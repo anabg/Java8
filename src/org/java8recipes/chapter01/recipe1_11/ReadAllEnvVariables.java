@@ -3,9 +3,10 @@ package org.java8recipes.chapter01.recipe1_11;
 import java.util.Map;
 
 /**
- * Created by ÊAnita on 12/2/2017.
  * If you are interested in retrieving the entire list of environment variables that is defined on a system,
  * do not pass any arguments to the System.getenv() method. Youíll receive back an object of type Map having all the values.
+ *
+ * Created by ÊBelu on 12/2/2017.
  */
 public class ReadAllEnvVariables {
 
@@ -18,7 +19,7 @@ public class ReadAllEnvVariables {
                 System.out.println("No such environment variable exists");
             }
         } else {
-            //Get all enviroment variables that are defined in the system.
+            //Get all environment variables that are defined in the system.
             //Iterating Through a Map of Environment Variables
             //getenv() method, which will return a value for a given system environment variable
             Map<String, String> vars = System.getenv();

@@ -1,8 +1,10 @@
 package org.java8recipes.chapter01.recipe1_02;
 
 /**
- * Created by æAnita on 24/1/2017.
+ * Created by æBelu on 24/1/2017.
  */
+
+
 public class HelloMessage {
 
 
