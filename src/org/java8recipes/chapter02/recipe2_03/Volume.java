@@ -1,13 +1,16 @@
 package org.java8recipes.chapter02.recipe2_03;
 
 /**
- * Created by ÊAnita on 13/2/2017.
- */
-
-/**
  * Providing a Default Method Implementation in an Interface
  * Problem:
  * You want to add a new method to an existing interface without breaking backward compatibility with other code.
+ *
+ * Solution: Develop a default method (a.k.a. defender method) within the interface so that any classes implementing the interface
+ * are not required to provide an implementation of the new method. To do so, add the new default keyword to
+ * the interface declaration and provide a method implementation. The following interface Volume includes a default
+ * method implementation for the calculateVolume method:
+ *
+ * Created by ÊBelu on 13/2/2017.
  */
 public interface Volume {
 
