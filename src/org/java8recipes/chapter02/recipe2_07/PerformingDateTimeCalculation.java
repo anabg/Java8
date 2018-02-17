@@ -49,7 +49,7 @@ public class PerformingDateTimeCalculation {
         LocalTime timeMinusMin = myTime.minusMinutes(30);
         System.out.println("Time Plus 5 Hours: " + timePlusHours);
         System.out.println("Time Minus 30 Minutes: " + timeMinusMin);
-        
+
     }
 
 }
