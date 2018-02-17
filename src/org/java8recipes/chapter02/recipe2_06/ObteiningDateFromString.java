@@ -19,7 +19,7 @@ import java.time.format.DateTimeFormatter;
  *
  *
  * How It Works
- * 
+ *
  * The LocalDate object contains several utility methods that can be used to manipulate a date. One such method
  * is parse(), which accepts two arguments, a string-based date and a DateTimeFormatter object that specifies the
  * format of the first argument. This method obtains an instance of LocalDate from the text string, and it returns a
