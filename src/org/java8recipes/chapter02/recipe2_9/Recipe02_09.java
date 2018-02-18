@@ -36,7 +36,7 @@ import javax.swing.*;
  * Dispatch Thread (EDT), so any Swing access should be made on the EDT. That said, a new thread is created using
  * SwingUtilities.invokeLater, and a lambda expression encapsulates the Runnable that is used to set the Swing content.
  *
- * 
+ *
  * Created by ÊBelu on 17/2/2018.
  */
 public class Recipe02_09 extends Application {
