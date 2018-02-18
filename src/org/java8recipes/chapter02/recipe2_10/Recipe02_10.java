@@ -49,7 +49,7 @@ import java.time.LocalDate;
  *  primaryStage.setScene(new Scene(flow, 300, 100));
  *  primaryStage.show();
  *  }
- *  
+ *
  * <p>
  * Created by ÊBelu on 18/2/2018.
  */
@@ -67,8 +67,8 @@ public class Recipe02_10 extends Application{
         });
 
         FlowPane flow = new FlowPane();
-        flow.setPadding(new Insets(5, 5, 5, 5));
-        flow.getChildren().add(dateLabel);
+        //flow.setPadding(new Insets(5, 5, 5, 5));
+        //flow.getChildren().add(dateLabel);
         flow.getChildren().add(datePicker);
 
         primaryStage.setScene(new Scene(flow, 300, 100));
