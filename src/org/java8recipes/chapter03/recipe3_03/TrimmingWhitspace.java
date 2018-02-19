@@ -31,7 +31,7 @@ package org.java8recipes.chapter03.recipe3_03;
  *  types in any programming language . . . so theyíd better be easy to use! The trim() method returns a copy of the
  *  original string with all leading and trailing whitespace removed. If, however, there is no whitespace to be removed,
  *  the trim() method returns the original string instance. It does not get much easier than that!
- *  
+ *
  * Created by ÊBelu on 25/2/2017.
  */
 public class TrimmingWhitspace {
