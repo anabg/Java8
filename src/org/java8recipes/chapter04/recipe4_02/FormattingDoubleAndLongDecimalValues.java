@@ -100,6 +100,11 @@ public class FormattingDoubleAndLongDecimalValues {
     }
 
     public static void main(String[] args) {
+
+
+        formatDouble(10.12345678);
+
+    //////////////////
     // Obtains an instance of NumberFormat class
         NumberFormat format = NumberFormat.getInstance();
 
