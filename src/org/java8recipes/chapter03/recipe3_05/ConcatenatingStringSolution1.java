@@ -1,7 +1,24 @@
 package org.java8recipes.chapter03.recipe3_05;
 
 /**
- * Created by ÊAnita on 26/2/2017.
+ * CONCATENATING STRINGS
+ *
+ * Problem: There are various strings that you want to combine into one.
+ *
+ * Solution #1: If you want to concatenate strings onto the end of each other, use the concat() method. The following example
+ * demonstrates the use of the concat() method:
+ *
+ * String one = "Hello";
+ * String two = "Java8";
+ *
+ * String result = one.concat(" ".concat(two));
+ *
+ * The result is this:
+ *
+ * Hello Java8
+ *
+ *
+ * Created by ÊBelua on 26/2/2017.
  */
 public class ConcatenatingStringSolution1 {
 

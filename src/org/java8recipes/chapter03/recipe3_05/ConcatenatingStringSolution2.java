@@ -1,7 +1,9 @@
 package org.java8recipes.chapter03.recipe3_05;
 
 /**
- * Created by ÊAnita on 26/2/2017.
+ *
+ *
+ * Created by ÊBelu on 26/2/2017.
  */
 public class ConcatenatingStringSolution2 {
 
