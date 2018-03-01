@@ -34,7 +34,7 @@ import java.util.Random;
  * solution #2. Both techniques provide a good means of generating random values. However, if you need to generate
  * random numbers of a specific type, java.util.Random is the best choice.
  *
- * 
+ *
  * Created by �Belu on 1/3/2018.
  */
 public class RadomlyGeneratingValues_Solution01 {
