@@ -7,9 +7,9 @@ import java.util.Locale;
 
 /**
  *
- * Problem You need to be able to format double and long numbers in your application.
+ * Problem: You need to be able to format double and long numbers in your application.
  *
- * Solution Use the DecimalFormat class to format and round the value to the precision your application requires. In the following
+ * Solution: Use the DecimalFormat class to format and round the value to the precision your application requires. In the following
  * method, a double value is accepted and a formatted string value is printed:
  *
  * public static void formatDouble(double myDouble){
