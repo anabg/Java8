@@ -37,7 +37,7 @@ package org.java8recipes.chapter04.recipe04_04;
  * new Float(float1).compareTo(new Float(float2)
  *
  * In the end, the same results will be returned using either compareTo() or compare().
- * 
+ *
  * Created by ÊBelu on 28/2/2018.
  */
 public class ComparingFloatingPointsNumbers_Solution01 {
